@@ -30,23 +30,23 @@ public class Vector3 {
 	
 	public void add(Vector3 v) {
 		x+=v.x;
-		x+=v.y;
-		x+=v.z;
+		y+=v.y;
+		z+=v.z;
 	}
 	public void sub(Vector3 v) {
 		x-=v.x;
-		x-=v.y;
-		x-=v.z;
+		y-=v.y;
+		z-=v.z;
 	}
 	public void mult(Vector3 v) {
 		x*=v.x;
-		x*=v.y;
-		x*=v.z;
+		y*=v.y;
+		z*=v.z;
 	}
 	public void div(Vector3 v) {
 		x/=v.x;
-		x/=v.y;
-		x/=v.z;
+		y/=v.y;
+		z/=v.z;
 	}
 	
 	

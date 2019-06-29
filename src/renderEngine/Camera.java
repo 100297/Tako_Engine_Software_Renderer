@@ -12,7 +12,7 @@ public class Camera implements KeyListener {
 //Vector3 Position
 //Vector 3 up
 //Vector 3 right
-// Vector 5 forward
+// Vector 3 forward
 //Quaternion orientation
 
 Matrix4 view;
