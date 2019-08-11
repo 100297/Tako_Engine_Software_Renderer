@@ -11,7 +11,7 @@ public class Matrix3 {
 	public static Matrix3 subtract(Matrix3 mat1, Matrix3 mat2) {
 		return subtract(mat1, mat2);
 	}
-	
+	// TODO
 	public Matrix3() {
 		matrix = new float[3][3];
 		for (int i = 0; i < matrix.length; i++) {

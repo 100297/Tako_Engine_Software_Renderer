@@ -30,17 +30,17 @@ public class CommentReader {
 		number = new ArrayList<Integer>();
 		scan();
 
-		System.out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" + keep.size());
 		tot = tot + filenames.get(frt) + "\n";
 		frt++;
 		for (int i = 0; i < keep.size(); i++) {
-			tot = tot + keep.get(i) + " " + number.get(i) + "\n";
 			if (i > 0) {
 				if (number.get(i) < number.get(i - 1)) {
 					tot = tot + filenames.get(frt) + "\n";
 					frt++;
 				}
 			}
+			tot = tot + keep.get(i) + " " + number.get(i) + "\n";
+			
 
 		}
 		System.out.println(tot);
@@ -50,7 +50,9 @@ public class CommentReader {
 			fw.write(tot);
 			fw.close();
 
-		} catch (IOException e) {
+		} catch
+
+		(IOException e) {
 			e.printStackTrace();
 		}
 
